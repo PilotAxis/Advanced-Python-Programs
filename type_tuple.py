@@ -1,0 +1,6 @@
+t1 = eval(input("Enter tuple 1 :"))
+t2 = eval(input("Enter tuple 2 :"))
+t3 = eval(input("Enter tuple 3 :"))
+print("Type 1 :", type(t1))
+print("Type 2 :", type(t2))
+print("Type 3 :", type(t3))

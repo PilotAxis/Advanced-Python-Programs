@@ -1,0 +1,8 @@
+myfile = open(r"C:\Users\moham\OneDrive\My Document\File Handling\poem.txt", 'r')
+str = myfile.readlines()
+print(str, end=' ')
+str = myfile.readline()
+print(str, end=' ')
+str = myfile.readline()
+print(str, end=' ')
+myfile.close()

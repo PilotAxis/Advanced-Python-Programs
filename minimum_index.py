@@ -1,0 +1,5 @@
+lst = eval(input("Enter list :"))
+print("Given list is :", lst)
+val = min(lst)
+ind = lst.index(val)
+print("The minimum element of the given list is :", val, "at index", ind)

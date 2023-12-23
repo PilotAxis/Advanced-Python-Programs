@@ -1,0 +1,5 @@
+myfile = open(r"C:\Users\moham\OneDrive\Documents\File Handling\poem.txt", 'r')
+str = myfile.read()
+size = len(str)
+print("Size of the given file poem.txt is :")
+print(size, "bytes")
