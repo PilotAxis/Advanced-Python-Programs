@@ -1,0 +1,8 @@
+def print_substrings(input_string):
+    n = len(input_string)
+    for i in range(n):
+        for j in range(i + 1, n + 1):
+            substring = input_string[i:j]
+            print(substring)
+user_input = input("Enter a string: ")
+print_substrings(user_input)
